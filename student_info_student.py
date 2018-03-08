@@ -28,5 +28,9 @@ test your case below, call the methods you created to get desired information
 """
 
 student = Student("Thomas", 2017, "Comp Sci")
-student.set_name("Thomas Tai")
+student.set_name("John")
+student.set_class_of(2014)
+student.set_major("Business")
 print(student.get_name())
+print(student.get_class_of())
+print(student.get_major())
